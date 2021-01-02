@@ -1,0 +1,65 @@
+\begin{thebibliography}{10}\itemsep=-1pt
+
+\bibitem{carreira2016human}
+Joao Carreira, Pulkit Agrawal, Katerina Fragkiadaki, and Jitendra Malik.
+\newblock Human pose estimation with iterative error feedback.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 4733--4742, 2016.
+
+\bibitem{he2016deep}
+Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun.
+\newblock Deep residual learning for image recognition.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 770--778, 2016.
+
+\bibitem{krizhevsky2017imagenet}
+Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
+\newblock Imagenet classification with deep convolutional neural networks mark.
+\newblock {\em Commun. ACM}, 60(6):84--90, 2017.
+
+\bibitem{lecun1998gradient}
+Yann LeCun, L{\'e}on Bottou, Yoshua Bengio, and Patrick Haffner.
+\newblock Gradient-based learning applied to document recognition.
+\newblock {\em Proceedings of the IEEE}, 86(11):2278--2324, 1998.
+
+\bibitem{luvizon2019human}
+Diogo~C Luvizon, Hedi Tabia, and David Picard.
+\newblock Human pose regression by combining indirect part detection and
+  contextual information.
+\newblock {\em Computers \& Graphics}, 85:15--22, 2019.
+
+\bibitem{pishchulin2016deepcut}
+Leonid Pishchulin, Eldar Insafutdinov, Siyu Tang, Bjoern Andres, Mykhaylo
+  Andriluka, Peter~V Gehler, and Bernt Schiele.
+\newblock Deepcut: Joint subset partition and labeling for multi person pose
+  estimation.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 4929--4937, 2016.
+
+\bibitem{sun2017compositional}
+Xiao Sun, Jiaxiang Shang, Shuang Liang, and Yichen Wei.
+\newblock Compositional human pose regression.
+\newblock In {\em Proceedings of the IEEE International Conference on Computer
+  Vision}, pages 2602--2611, 2017.
+
+\bibitem{szegedy2015going}
+Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir
+  Anguelov, Dumitru Erhan, Vincent Vanhoucke, and Andrew Rabinovich.
+\newblock Going deeper with convolutions.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 1--9, 2015.
+
+\bibitem{tompson2014joint}
+Jonathan~J Tompson, Arjun Jain, Yann LeCun, and Christoph Bregler.
+\newblock Joint training of a convolutional network and a graphical model for
+  human pose estimation.
+\newblock {\em Advances in neural information processing systems},
+  27:1799--1807, 2014.
+
+\bibitem{toshev2014deeppose}
+Alexander Toshev and Christian Szegedy.
+\newblock Deeppose: Human pose estimation via deep neural networks.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 1653--1660, 2014.
+
+\end{thebibliography}

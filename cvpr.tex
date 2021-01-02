@@ -1,0 +1,74 @@
+% This version of CVPR template is provided by Ming-Ming Cheng.
+% Please leave an issue if you found a bug:
+% https://github.com/MCG-NKU/CVPR_Template.
+
+%\documentclass[review]{cvpr}
+\documentclass[final]{cvpr}
+
+\usepackage{times}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{indentfirst}
+%\setlength{\parindent}{2em}
+% Include other packages here, before hyperref.
+
+% If you comment hyperref and then uncomment it, you should delete
+% egpaper.aux before re-running latex.  (Or just hit 'q' on the first latex
+% run, let it finish, and you should be clear).
+\usepackage[pagebackref=true,breaklinks=true,colorlinks,bookmarks=false]{hyperref}
+
+
+\def\cvprPaperID{****} % *** Enter the CVPR Paper ID here
+\def\confYear{CVPR 2021}
+%\setcounter{page}{4321} % For final version only
+
+
+\begin{document}
+
+%%%%%%%%% TITLE
+\title{Human Pose Estimation from a Single Image}
+
+\author{Yikai Wang\\
+Student id: 2020233280\\
+{}
+% For a paper whose authors are all at the same institution,
+% omit the following lines up until the closing ``}''.
+% Additional authors and addresses can be added with ``\and'',
+% just like the second author.
+% To save space, use either the email address or home page, not both
+\and
+Chuanhao Hao\\
+Student id:\\
+{}
+}
+
+\maketitle
+
+
+%%%%%%%%% ABSTRACT
+\begin{abstract}
+
+\end{abstract}
+
+%%%%%%%%% BODY TEXT
+\section{Introduction}
+
+Human pose estimation, which has been extensively studied in computer vision literature, involves estimating the configuration of human body parts from input data captured by sensors, in particular images and videos. Human pose estimation provides geometric and motion information of the human body which has been applied to a wide range of applications such as human-computer interaction, motion analysis, augmented reality(AR), virtual reality(VR), healthcare,etc. With the rapid development of deep learning solutions in recent years, such solutions have been shown to outperform classical computer vision methods in various tasks including image classification, semantic segmentation and object detection. Significant progress and remarkable performance have already been made by employ deep learning techniques in human pose estimation tasks. However, challenges such as occlusion, insufficient training data, and depth ambiguity still pose difficulties to be overcome. 2D human pose estimation from images and videos with 2D pose annotations is easily achievable and high performance has been reached for the human pose estimation of a single person using deep learning techniques. 2D single-person pose estimation is used to localize human body joint positions when the input is a single-person image. A good human pose estimation system must be robust to occlusion and severe deformation, successful on rare and novel poses, and invariant to challenge in appearance due to factors like clothing and lighting. Early work tackles such difficulties using robust features and sophisticated structured prediction: the former is used to produce local interpretations, whereas the latter is used to infer a globally consistent pose.\\
+\indent However, this conventional pipeline has been greatly reshaped by convolutional neural networks\cite{lecun1998gradient}, a main driver behind an explosive rise in performance across many computer vision tasks. Recently pose estimation\cite{tompson2014joint} systems have universally adopted convolutional neural networks as their main building blocks, largely replacing hand-crafted features and graphical models; this strategy has yielded drastic improvements on standard benchmarks. In our project, we 
+\section{Related Work}
+Traditionally 2D human pose estimation method adopt different hand-crafted feature extraction techniques for body parts, and these early works describe human body as a stick figure to obtain global pose structures. Recently, deep learning-based approaches have achieved a major breakthrough in human pose estimation by improving the performance significantly.\\
+\indent Using AlexNet\cite{krizhevsky2017imagenet} as the backbone, Toshev et al\cite{toshev2014deeppose} proposed a cascaded deep neural network regressor named DeepPose, with the introduction of "DeepPose" , research on human pose estimation began shifting from classic approaches to deep learning networks. Toshev et al use their network to directly regress the x,y coordinate of joints. The work by Tompson et al\cite{tompson2014joint} instead generates heatmaps by running an image through multiple resolution banks in parallel to simultaneously capture features at a variety of scales. A critical feature of the method proposed by Tompson et al\cite{tompson2014joint} is the joint use of ConvNet and a graphical model. Their graphical model learns typical spatial relationships between joints. Others have recently tackled this in similar ways\cite{pishchulin2016deepcut} with variation on how to approach unary score generation  and pairwise comparison of adjacent joints. Based on GoogLeNet\cite{szegedy2015going}, Carreira et al.\cite{carreira2016human} proposed an Iterative Error Feedback(IEF) network, which is a self-correcting model to progressively  change an initial solution by injecting the prediction error back to the input space. Sun et al.\cite{sun2017compositional} introduced a structure-aware regression method called  ”compositional  pose  regression”  based  on ResNet-50\cite{he2016deep}. This method adopts a re-parameterized and bone-based representation that contains human body information and pose structure, instead of the traditional joint-based representation. Luvizon et al.\cite{luvizon2019human} proposed an end-to-end regression approach for human pose estimation using soft-argmax function to convert feature maps into joint coordinates in a fully differentiable framework.
+\section{Data}
+\noindent \textbf{Max Planck Institute for Informatics(MPII) Human Pose Dataset}: This is a popular dataset for evaluation of articulated human pose estimation. The dataset includes around 25000 images containing over 40000 individuals with annotated body joints. The images were systematically collected by a two-level hierarchical method to capture everyday human activities. The entire dataset covers 410 huamn activities and all the images are labeled. Each image was extracted from a YouTube video and provided with preceding and following un-annotated frames. Moreover, rich annotations including body part occlusions, 3D torso and head orientations are also labeled.
+\section{Methods}
+\section{Experiments}
+\section{Conclusions}
+
+
+\bibliographystyle{ieee_fullname}
+\bibliography{egbib}
+
+
+\end{document}
