@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.12.28)  5 JAN 2021 21:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.12.28)  6 JAN 2021 11:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -416,86 +416,91 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 50.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]
-<Resnet.jpg, id=42, 599.23875pt x 252.945pt>
-File: Resnet.jpg Graphic file (type jpg)
-<use Resnet.jpg>
-Package pdftex.def Info: Resnet.jpg  used on input line 79.
-(pdftex.def)             Requested size: 347.79785pt x 146.81241pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[2]
-<our method.jpg, id=60, 491.58656pt x 173.14688pt>
-File: our method.jpg Graphic file (type jpg)
-<use our method.jpg>
-Package pdftex.def Info: our method.jpg  used on input line 101.
-(pdftex.def)             Requested size: 347.79785pt x 122.50713pt.
-<pred.jpg, id=63, 2073.7475pt x 1037.8775pt>
+)
+<pred.jpg, id=5, 2073.7475pt x 1037.8775pt>
 File: pred.jpg Graphic file (type jpg)
 <use pred.jpg>
-Package pdftex.def Info: pred.jpg  used on input line 109.
+Package pdftex.def Info: pred.jpg  used on input line 60.
 (pdftex.def)             Requested size: 496.85625pt x 248.6681pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<Resnet.jpg, id=6, 599.23875pt x 252.945pt>
+File: Resnet.jpg Graphic file (type jpg)
+<use Resnet.jpg>
+Package pdftex.def Info: Resnet.jpg  used on input line 66.
+(pdftex.def)             Requested size: 347.79785pt x 146.81241pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<val_20_hm_pred.jpg, id=64, 1092.08pt x 2055.68pt>
+<our method.jpg, id=7, 491.58656pt x 173.14688pt>
+File: our method.jpg Graphic file (type jpg)
+<use our method.jpg>
+Package pdftex.def Info: our method.jpg  used on input line 72.
+(pdftex.def)             Requested size: 347.79785pt x 122.50713pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<val_20_hm_pred.jpg, id=13, 1092.08pt x 2055.68pt>
 File: val_20_hm_pred.jpg Graphic file (type jpg)
 <use val_20_hm_pred.jpg>
-Package pdftex.def Info: val_20_hm_pred.jpg  used on input line 125.
-(pdftex.def)             Requested size: 347.79785pt x 654.66296pt.
-
-LaTeX Warning: Float too large for page by 37.21515pt on input line 127.
-
+Package pdftex.def Info: val_20_hm_pred.jpg  used on input line 97.
+(pdftex.def)             Requested size: 298.11678pt x 561.15761pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-(./cvpr.bbl (./cvpr.brf)
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+] [2 <./pred.jpg> <./Resnet.jpg>] [3 <./our method.jpg>] [4 <./val_20_hm_pred.j
+pg>] [5] (./cvpr.bbl
+(./cvpr.brf)
 \tf@brf=\write3
 \openout3 = `cvpr.brf'.
 
- [3 <./Resnet.jpg>] [4 <./our method.jpg> <./pred.jpg>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 133.
- [5
-
-] [6 <./val_20_hm_pred.jpg>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
+ [6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
  (./cvpr.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 133.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 133.
-Package rerunfilecheck Info: File `cvpr.brf' has not changed.
-(rerunfilecheck)             Checksum: 546BE48F1D73D4768D70D1F25C2D79E1;971.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 155.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 155.
+
+
+Package rerunfilecheck Warning: File `cvpr.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `cvpr.brf':
+(rerunfilecheck)             Before: 6E13F8E3C05FE404347D8F029EF2FC2A;1330
+(rerunfilecheck)             After:  D426A1756453D729BCECF42802168B12;1330.
  ) 
 Here is how much of TeX's memory you used:
- 7471 strings out of 481239
- 108933 string characters out of 5920376
- 382321 words of memory out of 5000000
- 22539 multiletter control sequences out of 15000+600000
+ 7482 strings out of 481239
+ 109117 string characters out of 5920376
+ 387361 words of memory out of 5000000
+ 22545 multiletter control sequences out of 15000+600000
  552811 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,8n,37p,1856b,434s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,9n,37p,1856b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on cvpr.pdf (6 pages, 1879690 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
+y7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on cvpr.pdf (6 pages, 1893277 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 130 compressed objects within 2 object streams
- 38 named destinations out of 1000 (max. 500000)
+ 174 PDF objects out of 1000 (max. 8388607)
+ 149 compressed objects within 2 object streams
+ 43 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

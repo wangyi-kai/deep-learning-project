@@ -4,45 +4,45 @@ The top-level auxiliary file: cvpr.aux
 The style file: ieee_fullname.bst
 Database file #1: egbib.bib
 Warning--empty journal in ioffe2015batch
-You've used 14 entries,
+You've used 15 entries,
             2120 wiz_defined-function locations,
-            654 strings with 7371 characters,
-and the built_in function-call counts, 6625 in all, are:
-= -- 656
-> -- 322
-< -- 9
-+ -- 126
-- -- 112
-* -- 459
-:= -- 1001
-add.period$ -- 42
-call.type$ -- 14
-change.case$ -- 98
+            660 strings with 7541 characters,
+and the built_in function-call counts, 7121 in all, are:
+= -- 710
+> -- 340
+< -- 10
++ -- 133
+- -- 118
+* -- 489
+:= -- 1071
+add.period$ -- 46
+call.type$ -- 15
+change.case$ -- 104
 chr.to.int$ -- 0
-cite$ -- 15
-duplicate$ -- 267
-empty$ -- 502
-format.name$ -- 112
-if$ -- 1442
+cite$ -- 16
+duplicate$ -- 290
+empty$ -- 543
+format.name$ -- 118
+if$ -- 1558
 int.to.chr$ -- 0
-int.to.str$ -- 14
-missing$ -- 14
-newline$ -- 73
-num.names$ -- 28
-pop$ -- 119
+int.to.str$ -- 15
+missing$ -- 15
+newline$ -- 78
+num.names$ -- 30
+pop$ -- 128
 preamble$ -- 1
-purify$ -- 84
+purify$ -- 89
 quote$ -- 0
-skip$ -- 225
+skip$ -- 243
 stack$ -- 0
-substring$ -- 482
-swap$ -- 109
-text.length$ -- 9
+substring$ -- 519
+swap$ -- 120
+text.length$ -- 10
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 56
+type$ -- 60
 warning$ -- 1
-while$ -- 63
-width$ -- 16
-write$ -- 154
+while$ -- 68
+width$ -- 17
+write$ -- 166
 (There was 1 warning)

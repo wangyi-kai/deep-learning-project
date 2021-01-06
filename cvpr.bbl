@@ -48,6 +48,12 @@ Diogo~C Luvizon, Hedi Tabia, and David Picard.
   contextual information.
 \newblock {\em Computers \& Graphics}, 85:15--22, 2019.
 
+\bibitem{newell2016stacked}
+Alejandro Newell, Kaiyu Yang, and Jia Deng.
+\newblock Stacked hourglass networks for human pose estimation.
+\newblock In {\em European conference on computer vision}, pages 483--499.
+  Springer, 2016.
+
 \bibitem{pishchulin2016deepcut}
 Leonid Pishchulin, Eldar Insafutdinov, Siyu Tang, Bjoern Andres, Mykhaylo
   Andriluka, Peter~V Gehler, and Bernt Schiele.
