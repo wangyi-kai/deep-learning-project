@@ -11,7 +11,7 @@
 \backcite {szegedy2015going}{{1}{2}{section.2}}
 \backcite {carreira2016human}{{1}{2}{section.2}}
 \backcite {sun2017compositional}{{1}{2}{section.2}}
-\backcite {he2016deep}{{1}{2}{section.2}}
+\backcite {he2016deep}{{2}{2}{section.2}}
 \backcite {luvizon2019human}{{2}{2}{section.2}}
 \backcite {li2014heterogeneous}{{2}{2}{section.2}}
 \backcite {fan2015combining}{{2}{2}{section.2}}
@@ -22,6 +22,7 @@
 \backcite {newell2016stacked}{{3}{1}{table.1}}
 \backcite {newell2016stacked}{{3}{1}{table.1}}
 \backcite {he2016deep}{{3}{4.1}{subsection.4.1}}
+\backcite {he2016deep}{{5}{4.2}{subsection.4.2}}
 \backcite {ioffe2015batch}{{5}{5.1}{subsection.5.1}}
 \backcite {tompson2014joint}{{5}{5.1}{subsection.5.1}}
-\backcite {newell2016stacked}{{5}{5.2.1}{subsubsection.5.2.1}}
+\backcite {newell2016stacked}{{6}{5.2.1}{subsubsection.5.2.1}}

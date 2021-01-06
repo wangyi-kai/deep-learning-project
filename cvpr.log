@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.12.28)  6 JAN 2021 11:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.12.28)  6 JAN 2021 21:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -421,7 +421,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: pred.jpg Graphic file (type jpg)
 <use pred.jpg>
 Package pdftex.def Info: pred.jpg  used on input line 60.
-(pdftex.def)             Requested size: 496.85625pt x 248.6681pt.
+(pdftex.def)             Requested size: 546.54489pt x 273.53174pt.
+
+Overfull \hbox (49.68864pt too wide) in paragraph at lines 60--61
+ [][] 
+ []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -445,47 +449,46 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<val_20_hm_pred.jpg, id=13, 1092.08pt x 2055.68pt>
-File: val_20_hm_pred.jpg Graphic file (type jpg)
-<use val_20_hm_pred.jpg>
-Package pdftex.def Info: val_20_hm_pred.jpg  used on input line 97.
-(pdftex.def)             Requested size: 298.11678pt x 561.15761pt.
+<heatmap.jpg, id=13, 1092.08pt x 2055.68pt>
+File: heatmap.jpg Graphic file (type jpg)
+<use heatmap.jpg>
+Package pdftex.def Info: heatmap.jpg  used on input line 97.
+(pdftex.def)             Requested size: 322.95352pt x 607.8946pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-] [2 <./pred.jpg> <./Resnet.jpg>] [3 <./our method.jpg>] [4 <./val_20_hm_pred.j
-pg>] [5] (./cvpr.bbl
-(./cvpr.brf)
+] [2 <./pred.jpg> <./Resnet.jpg>] [3 <./our method.jpg>]
+
+LaTeX Warning: Text page 4 contains only floats.
+
+
+LaTeX Warning: Text page 4 contains only floats.
+
+[4 <./heatmap.jpg>] [5] (./cvpr.bbl (./cvpr.brf)
 \tf@brf=\write3
 \openout3 = `cvpr.brf'.
 
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 155.
- [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 155.
+ [6])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
+ [7]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
  (./cvpr.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 155.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 155.
-
-
-Package rerunfilecheck Warning: File `cvpr.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `cvpr.brf':
-(rerunfilecheck)             Before: 6E13F8E3C05FE404347D8F029EF2FC2A;1330
-(rerunfilecheck)             After:  D426A1756453D729BCECF42802168B12;1330.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
+Package rerunfilecheck Info: File `cvpr.brf' has not changed.
+(rerunfilecheck)             Checksum: 2DB31B7AEF468E6763F1965E94C8401E;1379.
  ) 
 Here is how much of TeX's memory you used:
- 7482 strings out of 481239
- 109117 string characters out of 5920376
+ 7485 strings out of 481239
+ 109105 string characters out of 5920376
  387361 words of memory out of 5000000
- 22545 multiletter control sequences out of 15000+600000
+ 22544 multiletter control sequences out of 15000+600000
  552811 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 47i,9n,37p,1856b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 47i,9n,37p,1856b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -497,10 +500,10 @@ sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 y7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on cvpr.pdf (6 pages, 1893277 bytes).
+Output written on cvpr.pdf (7 pages, 1846629 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
- 43 named destinations out of 1000 (max. 500000)
+ 186 PDF objects out of 1000 (max. 8388607)
+ 160 compressed objects within 2 object streams
+ 47 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
